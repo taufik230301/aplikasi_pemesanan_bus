@@ -12,7 +12,21 @@
     <script>
     swal({
         title: "Success!",
-        text: "Anda Telah Berhasil Memesan Tiket !",
+        text: "Silahkann Transfer Ke Nomor Rekening Dibawah Sebesar Rp 10.000 PT. Damri Unsri 675519284791!",
+        icon: "success"
+    });
+    </script>
+    <?php }?>
+
+   
+
+    <?php if ($this->session->flashdata('pesanan_cash')) {
+    $message = $this->session->flashdata('pesanan_cash');
+    ?>
+    <script>
+    swal({
+        title: "Success!",
+        text: "<?=$message?>",
         icon: "success"
     });
     </script>

@@ -40,6 +40,7 @@ class Pesanan extends CI_Controller
         $nomor_telepon = $this->input->post("nomor_telepon");
         $metode_pembayaran = $this->input->post("metode_pembayaran");
 
+
         $kode_pembayaran = substr(md5($nama_bus . rand(1, 99999)), -6);
 
         $hasil = $this->m_pesanan->create_pesanan($waktu_berangkat, $kode_pembayaran, $tujuan, $asal, $tanggal_berangkat, $nama_bus,
@@ -51,8 +52,18 @@ class Pesanan extends CI_Controller
 
         } else {
 
-            $this->session->set_flashdata('pesan', 'pesan');
-            redirect('Pesanan/riwayat_pesanan');
+       
+            if($metode_pembayaran = "Cash"){
+
+                $this->session->set_flashdata('pesanan_cash', "Silahkan Lakukan Pembayar, dengan kode $kode_pembayaran di outlet kami !" );
+                redirect('Pesanan/riwayat_pesanan');
+              
+            }else{
+                $this->session->set_flashdata('pesanan', 'pesanan');
+                redirect('Pesanan/riwayat_pesanan');
+                
+            }
+
 
         }
 
