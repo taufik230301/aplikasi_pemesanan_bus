@@ -66,6 +66,7 @@
                                             $asal = $i['asal'];
                                             $tujuan = $i['tujuan'];
                                             $tanggal_berangkat =   $i['tanggal_berangkat'];
+                                            $waktu_berangkat =   $i['waktu_berangkat'];
                                             $kode_pembayaran =   $i['kode_pembayaran'];
                                             $metode_pembayaran =   $i['metode_pembayaran'];
                                             ?>
@@ -108,7 +109,7 @@
                                     </tr>
                                 </table>
                                 <div class="col mt-4">
-                                    <a href="https://wa.me/+6288747049006?text=Halo%20Admin,%20Pesanan%20Atas%20Nama%20<?=$nama_lengkap?>,%20Ingin%20konfirmasi%20pembayaran%20<?=$kode_pembayaran?>,%20asal%20keberangkatan%20<?=$asal?>%20dan%20tujuan%20<?=$tujuan?>" class="btn btn-primary">Proses</a>
+                                    <a href="https://wa.me/+6288747049006?text=Halo%20Admin,%20Pesanan%20Atas%20Nama%20<?=$nama_lengkap?>,%20Ingin%20konfirmasi%20pembayaran%20<?=$kode_pembayaran?>,%20asal%20keberangkatan%20<?=$asal?>%20dan%20tujuan%20<?=$tujuan?>,Nomor%20Kursi%20:%20<?=$nomor_kursi?>,%20Tanggal%20:%20<?=$tanggal_berangkat?>%20dan%20Waktu%20<?=$waktu_berangkat?>,%20Pembayaran%20VIA%20<?=$metode_pembayaran?>,%20Trimakasih!" class="btn btn-primary">Proses</a>
                                     <a type="button" type="button" class="btn btn-danger" data-toggle="modal"
                                         data-target="#exampleModal<?=$id_pesanan?>" class="btn btn-danger">Batal</a>
                                 </div>
