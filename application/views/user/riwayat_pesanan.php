@@ -98,6 +98,11 @@
                                         <td><?=$tanggal_berangkat?></td>
                                     </tr>
                                     <tr>
+                                        <td>Waktu Berangkat</td>
+                                        <td>&nbsp : </td>
+                                        <td><?=$waktu_berangkat?></td>
+                                    </tr>
+                                    <tr>
                                         <td>Kode Pembayaran</td>
                                         <td>&nbsp : </td>
                                         <td><?=$kode_pembayaran?></td>
