@@ -47,6 +47,14 @@
             </div>
             <div class="container">
                 <div class="row justify-content-start">
+                    <?php $res = count($pesanan);
+                    if($res==0){
+                        ?>
+                        <h1>Pesanan Beluma ada !</h1>
+                        
+                        <?php };?>
+                    
+                    
                     <?php
                                             $no = 0;
                                             foreach($pesanan as $i)
@@ -100,7 +108,7 @@
                                     </tr>
                                 </table>
                                 <div class="col mt-4">
-                                    <a href="https://wa.me/+6288747049006?text=Halo Admin, Pesanan Atas Nama <?=$nama_lengkap?>, Ingin konfirmasi pembayaran <?=$kode_pembayaran?>, asal keberangkatan <?=$asal?> dan tujuan <?=$tujuan?>" class="btn btn-primary">Proses</a>
+                                    <a href="https://wa.me/+6288747049006?text=Halo%20Admin,%20Pesanan%20Atas%20Nama%20<?=$nama_lengkap?>,%20Ingin%20konfirmasi%20pembayaran%20<?=$kode_pembayaran?>,%20asal%20keberangkatan%20<?=$asal?>%20dan%20tujuan%20<?=$tujuan?>" class="btn btn-primary">Proses</a>
                                     <a type="button" type="button" class="btn btn-danger" data-toggle="modal"
                                         data-target="#exampleModal<?=$id_pesanan?>" class="btn btn-danger">Batal</a>
                                 </div>

@@ -64,6 +64,9 @@
                     Tanggal Keberangkatan:
                     <p><input name="tanggal_berangkat" type="date" placeholder="Tanggal..."
                             oninput="this.className = ''"></p>
+                    Waktu Keberangkatan:
+                    <p><input name="waktu_berangkat" type="time" placeholder="Tanggal..." oninput="this.className = ''">
+                    </p>
                 </div>
 
                 <div class="tab">Pilih Bus dan Kursi Tersedia:
@@ -100,7 +103,7 @@
                                     <br>
                                     Damri Unsri 2
                                     <br>
-                                    Jam Keberangkatan : 6.00 - 7.00
+                                    Jam Keberangkatan : 7.00 - 8.00
                                     <br>
                                     Waktu Perjalanan : 1 Jam
                                 </label>
@@ -116,7 +119,7 @@
                                     <br>
                                     Damri Unsri 3
                                     <br>
-                                    Jam Keberangkatan : 6.00 - 7.00
+                                    Jam Keberangkatan : 8.00 - 9.00
                                     <br>
                                     Waktu Perjalanan : 1 Jam
                                 </label>
@@ -136,7 +139,7 @@
                                     <br>
                                     Damri Unsri 4
                                     <br>
-                                    Jam Keberangkatan : 6.00 - 7.00
+                                    Jam Keberangkatan : 9.00 - 10.00
                                     <br>
                                     Waktu Perjalanan : 1 Jam
                                 </label>
@@ -152,7 +155,7 @@
                                     <br>
                                     Damri Unsri 5
                                     <br>
-                                    Jam Keberangkatan : 6.00 - 7.00
+                                    Jam Keberangkatan : 10.00 - 11.00
                                     <br>
                                     Waktu Perjalanan : 1 Jam
                                 </label>
@@ -168,7 +171,7 @@
                                     <br>
                                     Damri Unsri 6
                                     <br>
-                                    Jam Keberangkatan : 6.00 - 7.00
+                                    Jam Keberangkatan : 11.00 - 12.00
                                     <br>
                                     Waktu Perjalanan : 1 Jam
                                 </label>
@@ -325,16 +328,23 @@
                 <div class="tab">Metode Pembayaran:
                     <p>
                     <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline11" name="metode_pembayaran"
+                        <input type="radio" id="customRadioInliness11" name="metode_pembayaran"
                             class="custom-control-input" value="Cash" checked>
-                        <label class="custom-control-label" for="customRadioInline11">Cash</label>
+                        <label class="custom-control-label" for="customRadioInliness11">Cash :
+                            <br> Pembayaran Lansung di Outlet, Kode Pembayaran ada di Tiket !
+                            
+                        </label>
                     </div>
                     </p>
                     <p>
                     <div class="custom-control custom-radio custom-control-inline">
-                        <input type="radio" id="customRadioInline12" name="metode_pembayaran"
+                        <input type="radio" id="customRadioInliness12" name="metode_pembayaran"
                             class="custom-control-input" value="Transfer">
-                        <label class="custom-control-label" for="customRadioInline12">Transfer</label>
+                        <label class="custom-control-label" for="customRadioInliness12">Transfer : 
+                            <br> Nomor Rekening
+                            <br> Dibawah Sebesar Rp 10.000
+                            <br> PT. Damri Unsri
+                            <br> 675519284791</label>
                     </div>
                     </p>
                 </div>

@@ -29,6 +29,7 @@ class Pesanan extends CI_Controller
         $tujuan = $this->input->post("tujuan");
         $asal = $this->input->post("asal");
         $tanggal_berangkat = $this->input->post("tanggal_berangkat");
+        $waktu_berangkat = $this->input->post("waktu_berangkat");
         $nama_bus = $this->input->post("nama_bus");
         $nomor_kursi = $this->input->post("nomor_kursi");
         $nama_lengkap = $this->input->post("nama_lengkap");
@@ -41,7 +42,7 @@ class Pesanan extends CI_Controller
 
         $kode_pembayaran = substr(md5($nama_bus . rand(1, 99999)), -6);
 
-        $hasil = $this->m_pesanan->create_pesanan($kode_pembayaran, $tujuan, $asal, $tanggal_berangkat, $nama_bus,
+        $hasil = $this->m_pesanan->create_pesanan($waktu_berangkat, $kode_pembayaran, $tujuan, $asal, $tanggal_berangkat, $nama_bus,
             $nomor_kursi, $nama_lengkap, $tanggal_lahir, $usia, $email, $jenis_kelamin, $nomor_telepon, $metode_pembayaran, $this->session->userdata('id_user'));
 
         if ($hasil == false) {

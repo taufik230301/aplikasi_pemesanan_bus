@@ -4,9 +4,10 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>AdminLTE 3 | Log in</title>
+    <title>E-DAMRI | Log in</title>
 
     <!-- Google Font: Source Sans Pro -->
+    <link rel="icon" type="image/png" href="<?= base_url();?>assets/img/logo_damri.ico" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
     <!-- Font Awesome -->

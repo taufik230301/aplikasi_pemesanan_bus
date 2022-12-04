@@ -17,13 +17,13 @@ class M_pesanan extends CI_Model
 
     }
 
-    public function create_pesanan($kode_pembayaran,$tujuan, $asal, $tanggal_berangkat, $nama_bus,
+    public function create_pesanan($waktu_berangkat, $kode_pembayaran,$tujuan, $asal, $tanggal_berangkat, $nama_bus,
         $nomor_kursi, $nama_lengkap, $tanggal_lahir, $usia, $email, $jenis_kelamin, $nomor_telepon, $metode_pembayaran, $id_user) {
         $this->db->trans_start();
 
-        $this->db->query("INSERT INTO pesanan(kode_pembayaran, tujuan, asal, tanggal_berangkat, nama_bus, nomor_kursi, nama_lengkap, tanggal_lahir,
+        $this->db->query("INSERT INTO pesanan(waktu_berangkat, kode_pembayaran, tujuan, asal, tanggal_berangkat, nama_bus, nomor_kursi, nama_lengkap, tanggal_lahir,
         usia, email, jenis_kelamin, nomor_telepon , metode_pembayaran, id_user, tanggal_pesan)
-       VALUES ('$kode_pembayaran','$tujuan','$asal', '$tanggal_berangkat', '$nama_bus', '$nomor_kursi', '$nama_lengkap', '$tanggal_lahir',
+       VALUES ('$waktu_berangkat', '$kode_pembayaran','$tujuan','$asal', '$tanggal_berangkat', '$nama_bus', '$nomor_kursi', '$nama_lengkap', '$tanggal_lahir',
        '$usia', '$email', '$jenis_kelamin', '$nomor_telepon', '$metode_pembayaran', '$id_user', NOW())");
 
         $this->db->trans_complete();
