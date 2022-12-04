@@ -5,6 +5,14 @@
 
     <?php $this->load->view('user/components/header') ?>
 
+    <style>
+    .content-wrapper {
+        background-image: url("http://localhost/pemesanan_damri_unsri/assets/img/damri_background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-position: center;
+    }
+    </style>
 </head>
 
 <body class="hold-transition sidebar-mini layout-fixed">

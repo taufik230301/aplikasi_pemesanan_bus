@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>E-DAMRI | Log in</title>
+    <title>Damri Unsri | Log in</title>
 
     <!-- Google Font: Source Sans Pro -->
     <link rel="icon" type="image/png" href="<?= base_url();?>assets/img/logo_damri.ico" />
@@ -17,6 +17,21 @@
     <!-- Theme style -->
     <link rel="stylesheet" href="<?=base_url();?>assets/admin/dist/css/adminlte.min.css">
     <script src="<?=base_url();?>node_modules/sweetalert/dist/sweetalert.min.js"></script>
+
+    <style>
+    body {
+        background-image: url("http://localhost/pemesanan_damri_unsri/assets/img/damri_background.jpg");
+        background-repeat: no-repeat;
+        background-size: 100%;
+        background-attachment: fixed;
+        background-position: center;
+
+    }
+
+    .login-logo{
+        background-color: white;
+    }
+    </style>
 </head>
 
 <body class="hold-transition login-page">
@@ -29,7 +44,7 @@
     });
     </script>
     <?php } ?>
-    
+
     <?php if ($this->session->flashdata('error_no_session')){ ?>
     <script>
     swal({
@@ -72,7 +87,8 @@
     <?php }?>
     <div class="login-box">
         <div class="login-logo">
-            <a href="<?=base_url();?>assets/admin/index2.html"><b>Aplikasi </b>E-DAMRI </b><img src="<?=base_url();?>assets/img/logo_damri.jpg" style="width:25%" alt="Damri"></a>
+            <a href="<?=base_url();?>assets/admin/index2.html"><b>Aplikasi </b>Damri Unsri </b><img
+                    src="<?=base_url();?>assets/img/logo_damri.jpg" style="width:25%" alt="Damri"></a>
         </div>
         <!-- /.login-logo -->
         <div class="card">

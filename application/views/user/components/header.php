@@ -1,6 +1,6 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>E-DAMRI | Dashboard</title>
+<title>Damri Unsri | Dashboard</title>
 <link rel="icon" type="image/png" href="<?= base_url();?>assets/img/logo_damri.ico" />
 
 <!-- Google Font: Source Sans Pro -->

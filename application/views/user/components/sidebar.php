@@ -4,7 +4,7 @@
       <a href="index3.html" class="brand-link">
           <img src="<?=base_url();?>assets/img/logo_damri.jpg" alt="AdminLTE Logo"
               class="brand-image img-circle elevation-3" style="opacity: .8">
-          <span class="brand-text font-weight-light">E-DAMRI</span>
+          <span class="brand-text font-weight-light">Damri Unsri</span>
       </a>
 
       <!-- Sidebar -->

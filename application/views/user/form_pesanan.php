@@ -69,7 +69,7 @@
                     </p>
                 </div>
 
-                <div class="tab">Pilih Bus dan Kursi Tersedia:
+                <div class="tab">Pilih Bus Tersedia:
 
 
                     <p>
@@ -179,6 +179,14 @@
                         </div>
                     </div>
                     </p>
+                   
+
+                </div>
+
+                <div class="tab">Pilih Kursi Tersedia:
+
+
+                   
                     Kursi:
                     <div class="row justify-content-between">
                         <div class="col-6">
@@ -332,7 +340,7 @@
                             class="custom-control-input" value="Cash" checked>
                         <label class="custom-control-label" for="customRadioInliness11">Cash :
                             <br> Pembayaran Lansung di Outlet, Kode Pembayaran ada di Tiket !
-                            
+
                         </label>
                     </div>
                     </p>
@@ -340,7 +348,7 @@
                     <div class="custom-control custom-radio custom-control-inline">
                         <input type="radio" id="customRadioInliness12" name="metode_pembayaran"
                             class="custom-control-input" value="Transfer">
-                        <label class="custom-control-label" for="customRadioInliness12">Transfer : 
+                        <label class="custom-control-label" for="customRadioInliness12">Transfer :
                             <br> Nomor Rekening
                             <br> Dibawah Sebesar Rp 10.000
                             <br> PT. Damri Unsri
@@ -363,6 +371,7 @@
 
                 <!-- Circles which indicates the steps of the form: -->
                 <div style="text-align:center;margin-top:40px;">
+                    <span class="step"></span>
                     <span class="step"></span>
                     <span class="step"></span>
                     <span class="step"></span>
