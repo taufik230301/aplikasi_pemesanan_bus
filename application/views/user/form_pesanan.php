@@ -179,14 +179,14 @@
                         </div>
                     </div>
                     </p>
-                   
+
 
                 </div>
 
                 <div class="tab">Pilih Kursi Tersedia:
 
 
-                   
+
                     Kursi:
                     <div class="row justify-content-between">
                         <div class="col-6">
@@ -358,6 +358,8 @@
                 </div>
                 <div class="tab">
                     <h3>Klik Submit Untuk Memesan !</h3>
+                    <h3>Silakan konfirmasi pembayaran cash atau transfer kepada Admin sebelum 30 menit keberangkatan
+                        Damri</h3>
                     <p><input type="text" value="done" hidden></p>
 
                 </div>
