@@ -11,6 +11,7 @@
         background-repeat: no-repeat;
         background-size: 100%;
         background-position: center;
+
     }
     </style>
 </head>

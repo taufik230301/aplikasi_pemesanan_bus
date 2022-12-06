@@ -18,6 +18,17 @@
     <link rel="stylesheet" href="<?=base_url();?>assets/admin/dist/css/adminlte.min.css">
 
     <script src="<?=base_url();?>node_modules/sweetalert/dist/sweetalert.min.js"></script>
+    <style>
+    .register-page {
+        background-color: #4087ff;
+    }
+
+ 
+
+    .register-logo{
+        background-color: white;
+    }
+    </style>
 </head>
 
 <body class="hold-transition register-page">
@@ -42,7 +53,8 @@
     <?php } ?>
     <div class="register-box">
         <div class="register-logo">
-            <a href="<?=base_url();?>assets/admin/index2.html"><b>Aplikasi </b>E-BUS</a>
+            <a href="<?=base_url();?>assets/admin/index2.html"><b>Website </b>Damri Unsri </b><img
+                    src="<?=base_url();?>assets/img/logo_damri.jpg" style="width:25%" alt="Damri"></a>
         </div>
 
         <div class="card">

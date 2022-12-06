@@ -262,11 +262,6 @@
                                         src="<?=base_url();?>assets/img/bus.png" style="width:50%"
                                         alt="Kursi 10"></label>
                             </div>
-                            </p>
-                        </div>
-                        <div class="col-5">
-                            <p>
-
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input value="Kursi 11" type="radio" id="customRadioInline11" name="nomor_kursi"
                                     class="custom-control-input">
@@ -304,10 +299,239 @@
                             </div>
                             <div class="custom-control custom-radio custom-control-inline">
                                 <input value="Kursi 16" type="radio" id="customRadioInline16" name="nomor_kursi"
-                                    class="custom-control-input" checked>
-                                <label class="custom-control-label" for="customRadioInline16"> <img
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline16"><img
                                         src="<?=base_url();?>assets/img/bus.png" style="width:50%"
                                         alt="Kursi 16"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 17" type="radio" id="customRadioInline17" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline17"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 17"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 18" type="radio" id="customRadioInline18" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline18"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 18"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 19" type="radio" id="customRadioInline19" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline19"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 19"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 20" type="radio" id="customRadioInline20" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline20"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 20"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 21" type="radio" id="customRadioInline21" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline21"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 21"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 22" type="radio" id="customRadioInline22" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline22"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 22"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 23" type="radio" id="customRadioInline23" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline23"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 23"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 24" type="radio" id="customRadioInline24" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline24"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 24"></label>
+                            </div>
+                            </p>
+                        </div>
+                        <div class="col-5">
+                            <p>
+
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 25" type="radio" id="customRadioInline25" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline25"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 25"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 26" type="radio" id="customRadioInline26" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline26"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 26"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 27" type="radio" id="customRadioInline27" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline27"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 27"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 28" type="radio" id="customRadioInline28" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline28"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 28"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 29" type="radio" id="customRadioInline29" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline29"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 29"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 30" type="radio" id="customRadioInline30" name="nomor_kursi"
+                                    class="custom-control-input" checked>
+                                <label class="custom-control-label" for="customRadioInline30"> <img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 30"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 31" type="radio" id="customRadioInline31" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline31"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 31"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 32" type="radio" id="customRadioInline32" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline32"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 32"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 33" type="radio" id="customRadioInline33" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline33"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 33"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 34" type="radio" id="customRadioInline34" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline34"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 34"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 35" type="radio" id="customRadioInline35" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline35"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 35"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 36" type="radio" id="customRadioInline36" name="nomor_kursi"
+                                    class="custom-control-input" checked>
+                                <label class="custom-control-label" for="customRadioInline36"> <img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 36"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 37" type="radio" id="customRadioInline37" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline37"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 37"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 38" type="radio" id="customRadioInline38" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline38"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 38"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 39" type="radio" id="customRadioInline39" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline39"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 39"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 40" type="radio" id="customRadioInline40" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline40"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 40"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 41" type="radio" id="customRadioInline41" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline41"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 41"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 42" type="radio" id="customRadioInline42" name="nomor_kursi"
+                                    class="custom-control-input" checked>
+                                <label class="custom-control-label" for="customRadioInline42"> <img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 42"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 43" type="radio" id="customRadioInline43" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline43"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 43"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 44" type="radio" id="customRadioInline44" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline44"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 44"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 45" type="radio" id="customRadioInline45" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline45"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 45"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 46" type="radio" id="customRadioInline46" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline46"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 46"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 47" type="radio" id="customRadioInline47" name="nomor_kursi"
+                                    class="custom-control-input">
+                                <label class="custom-control-label" for="customRadioInline47"><img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 47"></label>
+                            </div>
+                            <div class="custom-control custom-radio custom-control-inline">
+                                <input value="Kursi 48" type="radio" id="customRadioInline48" name="nomor_kursi"
+                                    class="custom-control-input" checked>
+                                <label class="custom-control-label" for="customRadioInline48"> <img
+                                        src="<?=base_url();?>assets/img/bus.png" style="width:50%"
+                                        alt="Kursi 48"></label>
                             </div>
                             </p>
                         </div>

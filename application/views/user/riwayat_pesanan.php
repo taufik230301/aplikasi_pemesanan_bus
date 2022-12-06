@@ -64,7 +64,7 @@
                     <?php $res = count($pesanan);
                     if($res==0){
                         ?>
-                        <h1>Pesanan Beluma ada !</h1>
+                        <h1>Pesanan Belum Ada !</h1>
                         
                         <?php };?>
                     
